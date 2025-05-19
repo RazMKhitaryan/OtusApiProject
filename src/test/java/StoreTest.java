@@ -1,4 +1,3 @@
-import base.BaseTest;
 import dto.DeleteOrderModel;
 import dto.OrderModel;
 import io.restassured.response.Response;
@@ -8,7 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import services.StoreService;
 
-public class StoreTest extends BaseTest {
+public class StoreTest{
 
   @Test(description = "pet order response json verification")
   public void petOrderWithAllParams() {
