@@ -1,8 +1,6 @@
 # OtusLesson Project
 
-This project demonstrates a Maven-based Java application with a focus on **Selenium** automation, **JUnit**, and
-various other dependencies including **Guice**, **Guava**, **AssertJ**, and **JSoup**.
-
+This project demonstrates a Maven-based Java application with a focus on **Rest Assured** API automation, **TestNG**
 ## Prerequisites
 
 Before running the project, ensure you have the following installed:
@@ -15,8 +13,7 @@ Before running the project, ensure you have the following installed:
 To clone the repository, run the following command:
 
 ```bash
-  git clone https://github.com/RazMKhitaryan/OtusLesson.git
-cd OtusLesson
+  git clone https://github.com/RazMKhitaryan/OtusApiProject.git
 ```
 
 ## Code Quality Checks
@@ -26,4 +23,4 @@ cd OtusLesson
 
 ## Run the tests with command from terminal
 
-`mvn test -Dbase.uri=https://petstore.swagger.io/v2`
+`mvn clean test -Dbase.uri=https://petstore.swagger.io/v2`
