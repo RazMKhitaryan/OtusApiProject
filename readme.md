@@ -23,4 +23,4 @@ To clone the repository, run the following command:
 
 ## Run the tests with command from terminal
 
-`mvn clean test -Dbase.uri=https://petstore.swagger.io/v2`
+`mvn clean test -Dbase.uri=https://petstore.swagger.io/v2 -DthreadCount=4`
